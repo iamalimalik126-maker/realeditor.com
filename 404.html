@@ -1017,6 +1017,7 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1
 .ft-mo:hover{color:var(--navy)}
 </style>
 <script>try{if(localStorage.getItem('re_motion')==='off')document.documentElement.classList.add('rm')}catch(e){}</script>
+<style id="glow">@property --gl{syntax:"<number>";inherits:false;initial-value:0}@keyframes glow-in{from{--gl:0}to{--gl:1}}@media (hover:hover){html .rv-c,html .tm-c,html .tm-row,html .in-c,html .why-c,html .pain,html .fit-c,html .pk,html .faq-item,html .rs-card,html .about-stats li,html .ben,html .guar,html .vcard,html .qz-o,html .st-c,html .ask,html .ps,html .stack,html .tcard{background-image:radial-gradient(240px circle at var(--mx,50%) var(--my,0%),rgba(184,243,90,calc(var(--gl,0) * .42)),transparent 72%);background-repeat:no-repeat}html .rv-c:hover,html .tm-c:hover,html .tm-row:hover,html .in-c:hover,html .why-c:hover,html .pain:hover,html .fit-c:hover,html .pk:hover,html .faq-item:hover,html .rs-card:hover,html .about-stats li:hover,html .ben:hover,html .guar:hover,html .vcard:hover,html .qz-o:hover,html .st-c:hover,html .ask:hover,html .ps:hover,html .stack:hover,html .tcard:hover{--gl:1;border-color:#8BD13F;animation:glow-in .35s ease}html .in-c,html .pain,html .fit-c,html .ben,html .guar,html .about-stats li,html .st-c{transition:border-color .3s ease,box-shadow .3s ease,opacity .8s cubic-bezier(.22,.8,.3,1),transform .8s cubic-bezier(.22,.8,.3,1)}html .in-c:hover,html .pain:hover,html .fit-c:hover,html .ben:hover,html .guar:hover,html .about-stats li:hover{box-shadow:0 0 0 4px rgba(184,243,90,.22),0 16px 32px -14px rgba(12,27,51,.18)}}@media (prefers-reduced-motion:reduce){html .rv-c:hover,html .tm-c:hover,html .tm-row:hover,html .in-c:hover,html .why-c:hover,html .pain:hover,html .fit-c:hover,html .pk:hover,html .faq-item:hover,html .rs-card:hover,html .about-stats li:hover,html .ben:hover,html .guar:hover,html .vcard:hover,html .qz-o:hover,html .st-c:hover,html .ask:hover,html .ps:hover,html .stack:hover,html .tcard:hover{animation:none}}</style>
 </head>
 <body class="no-js" data-page="404 page" data-topic="video editing">
 
@@ -1058,7 +1059,7 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1
       <p>Video editing for podcasters and talking head videos.</p>
     </div>
     <nav class="ft-col" aria-label="Services"><p class="ft-h">Services</p><ul><li><a href="podcast-clipping.html">For podcasters</a></li><li><a href="talking-head.html">Talking head videos</a></li></ul></nav>
-    <nav class="ft-col" aria-label="Company"><p class="ft-h">Real Editor</p><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#how">How it works</a></li><li><a href="index.html#offer">First video offer</a></li><li><a href="index.html#faq">FAQ</a></li><li><a href="index.html#contact">Contact</a></li></ul></nav>
+    <nav class="ft-col" aria-label="Company"><p class="ft-h">Real Editor</p><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#offer">First video offer</a></li><li><a href="index.html#faq">FAQ</a></li><li><a href="index.html#contact">Contact</a></li></ul></nav>
   </div>
   <div class="wrap ft-bottom"><span>© 2026 Real Editor</span><span class="ft-sep">·</span><a class="ft-priv" href="privacy.html">Privacy Policy</a><span class="ft-sep">·</span><button type="button" class="ft-ck">Cookie settings</button><span class="ft-sep">·</span><button type="button" class="ft-mo" aria-pressed="false">Motion: on</button></div>
 </footer>
@@ -1388,5 +1389,6 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1
     label();
   })();
 </script>
+<script>(function(){if(!window.matchMedia("(hover:hover)").matches)return;var S='.rv-c,.tm-c,.tm-row,.in-c,.why-c,.pain,.fit-c,.pk,.faq-item,.rs-card,.about-stats li,.ben,.guar,.vcard,.qz-o,.st-c,.ask,.ps,.stack,.tcard',last=null;document.addEventListener("pointermove",function(e){var c=e.target.closest&&e.target.closest(S);if(!c)return;var r=c.getBoundingClientRect();c.style.setProperty("--mx",(e.clientX-r.left).toFixed(0)+"px");c.style.setProperty("--my",(e.clientY-r.top).toFixed(0)+"px");},{passive:true});})();</script>
 </body>
 </html>
